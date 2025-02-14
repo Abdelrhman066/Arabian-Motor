@@ -165,6 +165,15 @@ nav {
   section.hero{
 
   }
+@media(max-width:426px){
+  section.hero {
+    margin-top: 60px;
+}
+.nav-menu li a {
+  font-size: 16px;
+}
+}
+
   .hero picture{
     overflow: hidden;
     position: relative;
