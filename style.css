@@ -308,6 +308,7 @@ nav {
     width:600px ;
     /* max-width:600px ; */
     border-radius: 30px;
+    margin: 0 8px;
     overflow: hidden;
 }
 .choose picture img{
@@ -334,8 +335,14 @@ div.col{
     margin-bottom: 10px;
   }
 }
+.col .item i{
+  font-size: 45px;
+  color: var(--ye);
+}
 
-.col .item picture{
+
+
+/* .col .item picture{
   display: block;
   width: 60px;
   overflow: hidden;
@@ -345,7 +352,7 @@ div.col{
 .col .item picture img{
   object-fit: cover;
   width: 100%;
-}
+} */
 .col .item h4{}
 .col .item h4 span{ color: rgba(249, 56, 39, 1) ;}
 .col .item p{ color: rgba(0, 0, 0, 0.6) ;}
@@ -373,6 +380,9 @@ div.col{
     padding: 12px;
     /* min-height: 400px; */
 
+}
+.car.special{
+  padding-top: 35px;
 }
 .car picture{
     width: 300px !important ;
@@ -638,9 +648,17 @@ margin: 0 auto;
 
 .details p {
   margin: 0 auto;
-  font-size: 22px;
-  width: 55%;
+  font-size: 24px;
+  width: 60%;
   color: #666;
+}
+.details i{
+  font-size: 24px;
+  margin: 0 5px;
+  color: var(--gr);
+}
+.details li{
+  font-size: 20px;
 }
 @media(max-width:426px){
   .details p {
