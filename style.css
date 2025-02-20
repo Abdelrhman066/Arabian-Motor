@@ -197,11 +197,11 @@ nav {
   }
   @media(max-width:426px){
     .hero picture h2{
-      top: -40px;
-      left: 40px;
-      font-size: 14px;
+      top: -50px;
+      left: 30px;
+      font-size: 8px;
       width: 150px;
-      line-height: 1.2;
+      line-height: 1.5;
     }
     .hero picture img{
       height: auto;
