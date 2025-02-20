@@ -236,10 +236,16 @@ nav {
 /* about start */
 .about{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap:20px ;
     align-items: center;
+}
+@media(max-width:1100px){
+  .about{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .about picture{
     width:360px ;
@@ -262,12 +268,13 @@ nav {
     width: 100%;
 }
 .about .details{
+  /* text-align: center; */
     width: 430px;
-    font-size: 20px;
-    line-height: 1.4;
+    font-size: 26px;
+    line-height: 1.6;
     border: 1px solid rgba(60, 85, 45, 1) ;
     border-radius: 25px;
-    padding:25px 20px;
+    padding:18px ;
 }
 
 
