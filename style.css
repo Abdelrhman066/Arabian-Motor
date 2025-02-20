@@ -263,7 +263,7 @@ nav {
 }
 .about .details{
     width: 430px;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4;
     border: 1px solid rgba(60, 85, 45, 1) ;
     border-radius: 25px;
@@ -280,15 +280,22 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
     flex-wrap: wrap;
     background-color: rgb(231, 231, 231);
 }
 .carLogos picture{
-    width:300px;
+    width:200px;
+    /* border-radius: 50%; */
     /* height: 380px; */
     /* border-radius: 50px; */
     overflow: hidden;
+}
+@media(max-width:426px){
+  .carLogos picture{
+    width:40%;
+    overflow: hidden;
+}
 }
 .carLogos picture img{
     object-fit: cover;
