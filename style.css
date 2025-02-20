@@ -190,7 +190,7 @@ nav {
     top: -200px;
     left: 120px;
     width: 490px;
-    font-size: 48px;
+    font-size: 34px;
   }
   .hero picture h2 span{
     color: var(--ye);
@@ -270,7 +270,7 @@ nav {
 .about .details{
   /* text-align: center; */
     width: 430px;
-    font-size: 26px;
+    font-size: 18px;
     line-height: 1.6;
     border: 1px solid rgba(60, 85, 45, 1) ;
     border-radius: 25px;
