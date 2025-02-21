@@ -409,6 +409,10 @@ div.col{
 img.trans {
   transform: rotateY(180deg); /* Rotates the image 180 degrees around the Y-axis */
 }
+.special2{
+  padding-top: 20px;
+  margin-bottom: 35px;
+}
 .car .carName{
     color: var(--re);
 }
@@ -425,6 +429,9 @@ img.trans {
     font-size: 20px;
     font-weight: bold;
     transition: 0.5s;
+}
+.car button a{
+  text-decoration: none;
 }
 .car button:hover{
 
