@@ -15,6 +15,65 @@
 
   }
 
+  section#english{
+    direction: ltr;
+  }
+  section#arabic{
+    direction: rtl;
+  }
+  #english, #arabic {
+    display: none;
+  }
+  section#english.active,section#arabic.active {
+    display: block;
+  }
+
+
+
+  /* ------- */
+/* Language Buttons Container */
+.langBtns {
+  position: fixed;
+  right: 0;
+  top: 48%;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Adds spacing between buttons */
+}
+
+/* Base Button Styles */
+.langBtns button {
+  transform: rotate(270deg);
+  padding: 5px 10px; /* Increased padding for better touch targets */
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer; /* Indicates the button is clickable */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  background-color: rgba(0, 0, 0, 0.9); /* Default button color */
+  color: white; /* Default text color */
+}
+
+/* Hover and Focus States */
+.langBtns button:hover,
+.langBtns button:focus {
+  background-color: var(--ye); /* Darker shade on hover/focus */
+  color: #fff;
+}
+
+/* Specific Button Styles */
+#ar {
+  border-radius: 0 10px 0 0;
+}
+
+#en {
+  border-radius: 10px 0 0 0;
+}
+
+
+
 /* nav start */
 
 nav {
